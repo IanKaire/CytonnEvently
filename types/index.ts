@@ -27,7 +27,7 @@ export type CreateEventParams = {
     endDateTime: Date
     categoryId: string
     price: string
-    isFree: boolean
+    isVIP: boolean
     url: string
   }
   path: string
@@ -45,7 +45,7 @@ export type UpdateEventParams = {
     endDateTime: Date
     categoryId: string
     price: string
-    isFree: boolean
+    isVIP: boolean
     url: string
   }
   path: string
@@ -81,7 +81,7 @@ export type Event = {
   title: string
   description: string
   price: string
-  isFree: boolean
+  isVIP: boolean
   imageUrl: string
   location: string
   startDateTime: Date
@@ -108,7 +108,7 @@ export type CheckoutOrderParams = {
   eventTitle: string
   eventId: string
   price: string
-  isFree: boolean
+  isVIP: boolean
   buyerId: string
 }
 
