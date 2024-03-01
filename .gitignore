@@ -17,6 +17,7 @@
 /build
 
 # misc
+/screenshots
 .DS_Store
 *.pem
 
