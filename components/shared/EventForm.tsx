@@ -274,7 +274,7 @@ const EventForm = ({ userId, type, event, eventId }: EventFormProps) => {
                           <FormItem>
                             <FormControl>
                               <div className="flex items-center">
-                                <label htmlFor="isVIP" className="whitespace-nowrap pr-3 leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">Free Ticket</label>
+                                <label htmlFor="isVIP" className="whitespace-nowrap pr-3 leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">VIP Ticket</label>
                                 <Checkbox
                                   onCheckedChange={field.onChange}
                                   checked={field.value}
